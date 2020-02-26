@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'devise-i18n'
+gem 'administrate'
+gem 'rack', '>= 2.2.2'
+gem 'nokogiri', '~> 1.10.8'
