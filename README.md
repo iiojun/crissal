@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* Ruby version -- 2.6.3
 
 * System dependencies
 
+DB: postgres (PostgreSQL) 12.2
+
+Rails：6.0.1
+
 * Configuration
+
+git clone https://github.com/iiojun/crissal
+
+rbenv local 2.6.3
+
+bundle install
+
+yarn install --check-files
 
 * Database creation
 
+bin/rails db:create
+
+bin/rails db:migrate
+
 * Database initialization
 
-* How to run the test suite
+bin/rails server
 
-* Services (job queues, cache servers, search engines, etc.)
+access http://localhost:3000 by your browser
 
-* Deployment instructions
+bin/rails db:seed
 
-* ...
